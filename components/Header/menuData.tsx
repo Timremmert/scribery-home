@@ -14,18 +14,24 @@ const menuData: Menu[] = [
     path: "/#features",
   },
   {
-    id: 2.1,
-    title: "Blog",
+    id: 3,
+    title: "Pricing",
     newTab: false,
-    path: "/blog",
+    path: "/#pricing",
   },
   {
-    id: 2.3,
-    title: "Docs",
+    id: 4,
+    title: "Support",
     newTab: false,
-    path: "/docs",
+    path: "/support",
   },
-  {
+];
+
+export default menuData;
+
+/*
+Dropdown
+{
     id: 3,
     title: "Pages",
     newTab: false,
@@ -69,12 +75,4 @@ const menuData: Menu[] = [
     ],
   },
 
-  {
-    id: 4,
-    title: "Support",
-    newTab: false,
-    path: "/support",
-  },
-];
-
-export default menuData;
+*/
