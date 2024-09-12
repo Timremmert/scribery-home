@@ -63,19 +63,18 @@ const About = () => {
                 <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
                   New
                 </span>{" "}
-                SaaS Boilerplate for Next.js
+                Based on GPT-4o
               </span>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
                 A Complete Solution for
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
-                  SaaS Startup
+                  Creators
                 </span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+                Upgrade your LinkedIn posts with scheduled posts with the support of AI! 
               </p>
-
+              
               <div className="mt-7.5 flex items-center gap-5">
                 <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                   <p className="text-metatitle2 font-semibold text-black dark:text-white">
@@ -102,6 +101,7 @@ const About = () => {
                   <p>consectetur adipiscing elit fermentum ultricies.</p>
                 </div>
               </div>
+              
             </motion.div>
           </div>
         </div>
