@@ -29,7 +29,7 @@ const CTA = () => {
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h2 className="mb-4 w-11/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
-                Join With Us Today & Increase Your LinkdIn Productivity
+                Join With Us Today & Increase Your LinkedIn Productivity
               </h2>
               <p>Unlock the full potential of LinkedIn with Scribery! 
                 Our AI-powered tool helps you create and schedule posts effortlessly, 

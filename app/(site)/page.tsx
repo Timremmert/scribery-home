@@ -28,9 +28,9 @@ export default function Home() {
       <About />
       <FeaturesTab />
       <FunFact />
-      <CTA /> 
       <Testimonial />
       <Pricing />
+      <CTA />
       <FAQ />
     </main>
   );
