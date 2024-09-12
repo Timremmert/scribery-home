@@ -32,21 +32,21 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src="/images/logo/scribery-logo.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="/images/logo/scribery-logo.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  The best LinkedIn Post Scheduler out there.
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
@@ -56,7 +56,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  contact@scribery.eu
                 </a>
               </motion.div>
 
@@ -94,23 +94,15 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="#Features"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Product
+                        Features
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Careers
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
+                        href="#Pricing"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Pricing
@@ -138,7 +130,7 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Support
+                    Legal
                   </h4>
 
                   <ul>
@@ -147,7 +139,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Company
+                        Imprint
                       </a>
                     </li>
                     <li>
@@ -155,7 +147,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Press media
+                        Privacy Policy
                       </a>
                     </li>
                     <li>
@@ -163,7 +155,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Our Blog
+                        Terms & Conditions
                       </a>
                     </li>
                     <li>
@@ -301,7 +293,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} Scribery. All rights reserved
               </p>
             </motion.div>
 
