@@ -14,8 +14,8 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
-  description: "This is Home for Solid Pro",
+  title: "Scribery - LinkedIn Post Scheduler",
+  description: "Your AI-Powered Content Creation Assistant. Effortlessly generate high-quality content, optimize your writing, and reach a global audience with our platform.",
   // other metadata
 };
 
