@@ -34,30 +34,28 @@ const Pricing = () => {
             {/* <!-- Pricing Item --> */}
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                $10{" "}
+                $0{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
                   /month
                 </span>
               </h3>
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                Small Pack
+                Starter
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>Get a taste of Scribery with our Free Plan. Ideal for those who are just starting out, this plan gives you access to essential features to help you create and schedule LinkedIn posts with ease.</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                    AI-powered post creation
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Photos and Videos
+                    Up to 5 scheduled posts per month
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                    Basic analytics and insights
                   </li>
-                  <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
-                  </li>
+                  
                 </ul>
               </div>
 
@@ -89,29 +87,29 @@ const Pricing = () => {
               </div>
 
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                $59{" "}
+                $5{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
                   /month
                 </span>
               </h3>
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                Medium Pack
+                Basic
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>Take your LinkedIn strategy to the next level with the Basic Plan. This plan is perfect for freelancers and small businesses looking to increase their online presence without breaking the bank.</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                    Everything in Starter, plus:
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Photos and Videos
+                    Unlimited words to use for GPT-4o
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                    Enhanced analytics with engagement tracking
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
+                    Priority customer support
                   </li>
                 </ul>
               </div>
@@ -140,30 +138,28 @@ const Pricing = () => {
             {/* <!-- Pricing Item --> */}
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                $189{" "}
+                $10{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
                   /month
                 </span>
               </h3>
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                Large Pack
+                Pro
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>For serious content creators, entrepreneurs, and startups, the Pro Plan offers all the tools you need to dominate LinkedIn. Enjoy unlimited access to Scribery’s features and take full control of your content strategy.</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                    Everything in Basic, plus:
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Photos and Videos
+                    Advanced analytics with detailed insights
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                    Priority access to new features and updates 
                   </li>
-                  <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
-                  </li>
+              
                 </ul>
               </div>
 
