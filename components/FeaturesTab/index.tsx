@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import FeaturesTabItem from "./FeaturesTabItem";
 import featuresTabData from "./featuresTabData";
+import SectionHeader from "../Common/SectionHeader";
 
 import { motion } from "framer-motion";
 
@@ -12,7 +13,16 @@ const FeaturesTab = () => {
   return (
     <>
       {/* <!-- ===== Features Tab Start ===== --> */}
-      <section className="relative pb-20 pt-18.5 lg:pb-22.5">
+      <section id="featuresTab" className="relative pb-20 pt-18.5 lg:pb-22.5">
+        {/* <!-- Section Title Start --> */}
+        <SectionHeader
+            headerInfo={{
+              title: "USER",
+              subtitle: "Useful for everybody",
+              description: `Discover who scribery is particularly suitable for`,
+            }}
+          />
+          {/* <!-- Section Title End --> */}
         <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
             <Image
@@ -63,7 +73,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Clean User Interface
+                  Content Creator and Influencer
                 </button>
               </div>
             </div>
@@ -82,7 +92,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Essential Business Pages
+                  Freelancer
                 </button>
               </div>
             </div>
@@ -101,7 +111,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Fully Functional Integrations
+                  Entrepreneurs and start-ups
                 </button>
               </div>
             </div>

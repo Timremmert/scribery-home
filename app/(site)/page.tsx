@@ -14,7 +14,7 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Scribery - LinkedIn Post Scheduler",
+  title: "Scribery - LinkedIn Post Scheduler for Content Creators",
   description: "Your AI-Powered Content Creation Assistant. Effortlessly generate high-quality content, optimize your writing, and reach a global audience with our platform.",
   // other metadata
 };
