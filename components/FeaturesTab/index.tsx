@@ -14,7 +14,10 @@ const FeaturesTab = () => {
     <>
       {/* <!-- ===== Features Tab Start ===== --> */}
       <section id="featuresTab" className="relative pb-20 pt-18.5 lg:pb-22.5">
-        {/* <!-- Section Title Start --> */}
+        
+        <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+
+          {/* <!-- Section Title Start --> */}
         <SectionHeader
             headerInfo={{
               title: "USER",
@@ -23,7 +26,7 @@ const FeaturesTab = () => {
             }}
           />
           {/* <!-- Section Title End --> */}
-        <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+
           <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
             <Image
               fill
